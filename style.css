@@ -1,10 +1,19 @@
-#img-div{
+header > img{
+    display: inline-block;
+  }
+  header > h1{
+    display: inline-block;
+  }
+  #title{
+    margin: 0;
+  }
+  #img-div{
     margin: 1em auto;
   }
   #image{
     width: max(20vw, 50%);
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
     aspect-ratio: 16/12;
     /*This is how you center images*/
     display: block;
@@ -16,9 +25,10 @@
   #tribute-info{
     text-align: center;
   }
-  header > img{
-    display: inline-block;
+  #tribute-link{
+    color: blue;
   }
-  header > p{
-    display: inline-block;
+  a{
+    color: blue;
   }
+  
