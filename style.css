@@ -1,0 +1,4 @@
+#image{
+    width: max(30em, 18vw);
+    aspect-ratio: 16/12;
+  }
