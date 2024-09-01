@@ -1,4 +1,15 @@
-#image{
-    width: max(30em, 18vw);
+#img-div{
+    margin: 1em auto;
+  }
+  #image{
+    width: max(20vw, 75%);
+    height: auto;
     aspect-ratio: 16/12;
+    /*This is how you center images*/
+    display: block;
+    margin: 0 auto; 
+    align-content: center;
+  }
+  #tribute-info{
+    text-align: center;
   }
