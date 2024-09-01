@@ -8,8 +8,13 @@
     /*This is how you center images*/
     display: block;
     margin: 0 auto; 
-    align-content: center;
   }
   #tribute-info{
     text-align: center;
+  }
+  header > img{
+    display: inline-block;
+  }
+  header > p{
+    display: inline-block;
   }
