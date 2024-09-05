@@ -1,9 +1,10 @@
 body{
   margin: 0;
+  font-family: Verdana, Tahoma;
 }
 header{
   background: linear-gradient(to bottom, #3411CF 85%, #0073CE 85%);
-  padding-bottom: 5.5%;
+  padding-bottom: 3.9%;
 }
 header > img{
     display: inline-block;
@@ -15,7 +16,7 @@ header > img{
   }
   #title{
     margin: 0;
-    color: #DFB800;
+    color: white;
   }
   #img-div{
     margin: 1em auto;
@@ -41,4 +42,3 @@ header > img{
   a{
     color: blue;
   }
-  
