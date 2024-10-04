@@ -1,11 +1,12 @@
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body{
   font-family: Verdana, Tahoma;
   color: white;
-  background: linear-gradient(to right, #0073CE 5%,#3411CF 5%, #3411CF 95%, #0073CE 95%);
+  background: #100079;
 }
 header{
     width: 100%;
@@ -14,47 +15,60 @@ header{
     align-items: center;
     justify-content: center;
   }
+  #band-name{
+    font-size: 150%;
+    /*https://fonts.google.com/selection/embed*/
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
   #main{
     margin: 1em 2em 1em 2em;
   }
   #logo{
-    width: 50%;
+    width: 25%;
     height: auto;
     object-fit: cover;
   }
   #title{
-    margin: 0;
-    color: white;
+    margin: 1em 0 1em 0;
+    color: #FFC617;
   }
   #img-div{
     margin: 1em auto;
   }
   #image{
-    width: max(20vw, 50%);
+    width: max(30em, 70%);
     height: auto;
     max-width: 100%;
     aspect-ratio: 16/12;
+    object-fit: cover;
     /*This is how you center images*/
     display: block;
     margin: 0 auto;
-    object-fit: cover; 
   }
   #img-caption{
     text-align: center;
+    font-size: 75%;
+    margin-top: 0.5em;
   }
   #tribute-info{
     text-align: center;
   }
   #tribute-link{
-    color: orange;
+    color: #FFC617;
     display: block;
     width: fit-content;
     margin: 1em auto 1em auto;
 
   }
   .link{
-    color: orange;
+    color: #FFC617;
   }
   .link:clicked{
     color: rgb(126, 93, 31);
+  }
+  .link:hover{
+    background-color: #0073CE;
   }
