@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body{
   font-family: Verdana, Tahoma;
@@ -16,7 +17,7 @@ header{
     justify-content: center;
   }
   #band-name{
-    font-size: 150%;
+    font-size: 200%;
     /*https://fonts.google.com/selection/embed*/
     font-family: "MuseoModerno", sans-serif;
     font-optical-sizing: auto;
@@ -32,9 +33,9 @@ header{
     object-fit: cover;
   }
   #title{
-    margin: 1em 0 1em 0;
+    margin: 0.5em 0 0.5em 0;
     color: #FFC617;
-  }
+  }z
   #img-div{
     margin: 1em auto;
   }
@@ -52,6 +53,8 @@ header{
     text-align: center;
     font-size: 75%;
     margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-family: Georgia, Verdana;
   }
   #tribute-info{
     text-align: center;
