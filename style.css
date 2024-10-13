@@ -86,12 +86,15 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-size: 18px;
-    grid-gap: 1em;
+    grid-gap: 2.5em;
   }
   .album-image{
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+  .album-image:hover{
+    filter: brightness(70%);
   }
   footer{
     text-align: center;
@@ -117,4 +120,32 @@ header{
   }
   h2{
     margin-bottom: 1em;
+  }
+  @media(max-width: 900px){
+    #discography{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media(max-width: 600px){
+    #discography{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media(max-width: 520px){
+    #info{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    #timeline{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    #members{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    #albums{
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
