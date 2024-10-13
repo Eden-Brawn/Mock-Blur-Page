@@ -57,7 +57,7 @@ header{
     margin-bottom: 1em;
     font-family: Georgia, Verdana;
   }
-  #info{
+  #tribute-info{
     column-width: 20em;
     margin: 2em 3em 2em 3em;
   }
@@ -99,7 +99,7 @@ header{
   footer{
     text-align: center;
     font-size: 16px;
-    margin: 2em auto 0em auto;
+    margin: 3em 2em 1em 2em;
   }
   #tribute-link{
     color: #FFC617;
